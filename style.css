@@ -25,6 +25,10 @@ h1 {
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
 
+h2 {
+    font-family: Metamorphous;
+}
+
 /* Estiliza as seções da página */
 section {
     display: flex; /* Usa Flexbox para layout */
@@ -91,6 +95,10 @@ section button:hover {
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: #4682B4; /* Cor do texto dos links */
+}
+
+a:hover {
+    color: #006699;
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
